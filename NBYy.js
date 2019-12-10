@@ -1,8 +1,3 @@
-
-
-
-
-
-$('#flipContain').one('click', function() {
+$('#flipContain').click( function() {
   $('#tip').toggle();
 });
