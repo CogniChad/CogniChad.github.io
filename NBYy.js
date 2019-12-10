@@ -1,4 +1,8 @@
-$('#book').click( function() {
-  $('#tip').toggle();
-  console.log('me');
+$(document).ready(function() {
+	
+	
+
+	$("#flipContain").one("click", function() {
+	  $("#tip").fadeOut();
+	});
 });
