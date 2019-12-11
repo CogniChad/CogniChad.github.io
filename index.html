@@ -3,8 +3,8 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type="text/javascript" src="NBYy.js"></script>
-	<script type="text/javascript" src="turnjs4/lib/turn.js"></script>
-	<script type="text/javascript" src="turnjs4/lib/zoom.js"></script>
+    <!-- <script type="text/javascript" src="turnjs4/lib/turn.js"></script>
+	<script type="text/javascript" src="turnjs4/lib/zoom.js"></script> -->
 	<link rel="stylesheet" type="text/css" href="NBY.css"></link>
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 	
@@ -13,16 +13,16 @@
 	<div id="flipContain" class="shadow">
 		<div id="book"></div>
 		<div id="flipbook">
-			<div> <img style="width: 100%;" src="coverlines.png"></div>
-			<div><img style="width: 100%;" src="First lines2.png"></div>
-			<div> <img style="width: 100%;" src="Second lines.png"> </div>
-			<div> <img style="width: 100%;" src="third lines.png"> </div>
-			<div> <img style="width: 100%;" src="fourth lines.png"> </div>
-			<div> <img style="width: 100%;" src="Fifth Lines.png"> </div>
-			<div><img style="width: 100%;" src="sixth lines.png"></div>
-			<div><img style="width: 100%;" src="seventhlines.png"></div>
-			<div><img style="width: 100%;" src="Eighth Lines.png"></div>
-			<div><img style="width: 100%;" src="ninth lines2.png"></div>
+			<div class="pge"><img style="width: 100%;" src="coverlines.png"></div>
+			<div class="pge"><img style="width: 100%;" src="First lines2.png"></div>
+			<div class="pge"><img style="width: 100%;" src="Second lines.png"> </div>
+			<div class="pge"><img style="width: 100%;" src="third lines.png"> </div>
+			<div class="pge"><img style="width: 100%;" src="fourth lines.png"> </div>
+			<div class="pge"><img style="width: 100%;" src="Fifth Lines.png"> </div>
+			<div class="pge"><img style="width: 100%;" src="sixth lines.png"></div>
+			<div class="pge"><img style="width: 100%;" src="seventhlines.png"></div>
+			<div class="pge"><img style="width: 100%;" src="Eighth Lines.png"></div>
+			<div class="pge"><img style="width: 100%;" src="ninth lines2.png"></div>
 		</div>
 		<div id="tip">
 			<p style="color: white; font-family: 'Indie Flower', cursive; font-size: 30px; margin-top: 10px; " > &#8593; Click the Corner to Turn the Page! </p>
@@ -39,15 +39,7 @@
 	<div id="footer">
 		<img style="width: 17vw;" src="whitelogo.png">
 	</div>
-	<script type="text/javascript">
-		$("#flipbook").turn({
-			width: 1000,
-			height: 563,
-			autoCenter: true
-		});
-		$("#flipbook").turn("display", "single");
-		$("#flipbook").turn("center");
-	</script>
+
 
 
 
