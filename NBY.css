@@ -38,6 +38,26 @@ body {
 	background-size: cover;
 	background-position: right bottom;
 	box-shadow: 0 4px 10px #222;
+	z-index: -1;
+}
+
+.pge {
+	width: 1010px;
+	height: 563px;
+	margin: auto;
+	display: none;
+}
+
+@keyframes example {
+	from {transform: translate(10%);}
+	to {transform: translate(0%);}
+}
+
+.show {
+	display: block !important;
+	animation-name: example;
+	animation-duration: .3s;
+	animation-timing-function: ease-in-out;
 }
 
 #cup {
